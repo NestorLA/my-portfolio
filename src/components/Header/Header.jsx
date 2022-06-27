@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 import useStyles from "./useStyles";
 import { useTranslation } from "react-i18next";
 
+import logo from "../../assets/navbar-logo/logo1.webp";
+
 const Header = () => {
   const [nav, setNav] = useState(false);
   const navigate = useNavigate();
@@ -15,11 +17,7 @@ const Header = () => {
 
   return (
     <div className={styles.container}>
-      <img
-        src="/src/assets/navbar-logo/logo1.png"
-        alt=""
-        className={styles.logoImg}
-      />
+      <img src={logo} alt="Logo" className={styles.logoImg} />
 
       <ul className={styles.menu}>
         <li onClick={() => navigate("/")} className={styles.menuText}>
