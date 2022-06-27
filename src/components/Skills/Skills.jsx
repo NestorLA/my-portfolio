@@ -9,18 +9,18 @@ import {
 import { useTranslation } from "react-i18next";
 
 // IMAGES
-import fceImg from "../../assets/skills-logos/fce.png";
-import htmlImg from "../../assets/skills-logos/html.png";
-import cssImg from "../../assets/skills-logos/css3.png";
-import jsImg from "../../assets/skills-logos/js.png";
-import reactImg from "../../assets/skills-logos/react.png";
-import nextImg from "../../assets/skills-logos/nextjs.png";
-import firebaseImg from "../../assets/skills-logos/firebase.png";
-import bootstrapImg from "../../assets/skills-logos/bootstrap.png";
-import tailwindImg from "../../assets/skills-logos/tailwind.png";
-import materialImg from "../../assets/skills-logos/materialui.png";
-import gitImg from "../../assets/skills-logos/git.png";
-import githubImg from "../../assets/skills-logos/github.png";
+import fceImg from "../../assets/skills-logos/fce.webp";
+import htmlImg from "../../assets/skills-logos/html.webp";
+import cssImg from "../../assets/skills-logos/css3.webp";
+import jsImg from "../../assets/skills-logos/js.webp";
+import reactImg from "../../assets/skills-logos/react.webp";
+import nextImg from "../../assets/skills-logos/nextjs.webp";
+import firebaseImg from "../../assets/skills-logos/firebase.webp";
+import bootstrapImg from "../../assets/skills-logos/bootstrap.webp";
+import tailwindImg from "../../assets/skills-logos/tailwind.webp";
+import materialImg from "../../assets/skills-logos/materialui.webp";
+import gitImg from "../../assets/skills-logos/git.webp";
+import githubImg from "../../assets/skills-logos/github.webp";
 
 const Skills = () => {
   const styles = useStyles();

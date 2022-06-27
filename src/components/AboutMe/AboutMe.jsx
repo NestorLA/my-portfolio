@@ -2,7 +2,7 @@ import useStyles from "./useStyles";
 import { motion } from "framer-motion";
 import { father, toRight } from "../../components/Animations/Animations";
 import { useTranslation } from "react-i18next";
-import me from "../../assets/me.jpg"
+import me from "../../assets/me.webp"
 
 const About = () => {
   const styles = useStyles();

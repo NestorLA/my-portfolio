@@ -1,10 +1,10 @@
 body {
-  background-image: url("/src/assets/bg.jpg");
+  background-image: url("/src/assets/bg.webp");
   background-size: cover;
 }
 body:before {
   content: "";
-  background: url("/src/assets/bg.jpg") no-repeat center center/cover;
+  background: url("/src/assets/bg.webp") no-repeat center center/cover;
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -13,7 +13,7 @@ body:before {
   z-index: -1;
 }
 .bgNav {
-  background: url("/src/assets/bg.jpg") no-repeat center center/cover;
+  background: url("/src/assets/bg.webp") no-repeat center center/cover;
 }
 
 .content-div {

@@ -5,13 +5,13 @@ import { useTranslation } from "react-i18next";
 import ProjectsContainer from "./ProjectsContainer";
 
 // images
-import cmykImg from "../../assets/projects-img/cmyk.jpg";
-import mecanicaImg from "../../assets/projects-img/mecanicayogui.jpg";
-import messageImg from "../../assets/projects-img/mestowp.jpg";
-import notasImg from "../../assets/projects-img/notasapp.jpg";
-import pokecommerceImg from "../../assets/projects-img/pokecommerce.jpg";
-import quizImg from "../../assets/projects-img/quizapp.jpg";
-import sportsmanagerImg from "../../assets/projects-img/sportsmanager.jpg";
+import cmykImg from "../../assets/projects-img/cmyk.webp";
+import mecanicaImg from "../../assets/projects-img/mecanicayogui.webp";
+import messageImg from "../../assets/projects-img/mestowp.webp";
+import notasImg from "../../assets/projects-img/notasapp.webp";
+import pokecommerceImg from "../../assets/projects-img/pokecommerce.webp";
+import quizImg from "../../assets/projects-img/quizapp.webp";
+import sportsmanagerImg from "../../assets/projects-img/sportsmanager.webp";
 
 const Projects = () => {
   const styles = useStyles();
