@@ -1,0 +1,46 @@
+import useStyles from "./useStyles";
+import { motion } from "framer-motion";
+import { father, toRight } from "../../components/Animations/Animations";
+import { useTranslation } from "react-i18next";
+import me from "../../assets/me.jpg"
+
+const About = () => {
+  const styles = useStyles();
+  const [t] = useTranslation("language");
+
+  return (
+    <motion.div
+      initial="hidden"
+      animate="visible"
+      variants={father}
+      className={styles.container}
+      name="about"
+    >
+      <motion.div variants={toRight} className={styles.ring}>
+        <div className={styles.about}>
+          <div>
+            <p className={styles.aboutText}>{t("aboutPage.about")}</p>
+          </div>
+          <div className={styles.imgContainer}>
+            <img
+              src={me}
+              className={styles.img}
+              alt="Imagen de mi"
+            />
+          </div>
+        </div>
+        <div className={styles.colum}>
+          <div className={styles.columText}>
+            <p className={styles.hi}>{t("aboutPage.title")}</p>
+          </div>
+
+          <div>
+            <p className={styles.pText}>{t("aboutPage.text")}</p>
+          </div>
+        </div>
+      </motion.div>
+    </motion.div>
+  );
+};
+
+export default About;

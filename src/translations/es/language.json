@@ -1,0 +1,48 @@
+{
+  "navPage": {
+    "home": "Inicio",
+    "about": "Sobre mi",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "homePage": {
+    "hi": "Hola! Soy",
+    "title": "Desarrollador Front End.",
+    "titleContact": "Envíame un correo",
+    "titleCV": "Descarga mi CV"
+  },
+  "aboutPage": {
+    "about": "Sobre mi",
+    "title": "Mi nombre es Néstor Acerbo. Soy argentino e hincha de River Plate ❤",
+    "text": " Soy desarrollador de Front End con experiencia en crear sitios y aplicaciones web en JavaScript y React. Mi principal objetivo es crear atractivas, accesibles y eficientes interfaces para las personas. Tengo mucha confianza en que puedo solucionar cualquier problema y ser una gran adición a cualquier equipo de trabajo."
+  },
+  "skillsPage": {
+    "skills": "Habilidades",
+    "subtitle": "Estos son mis conocimientos y algunas de las tecnologías con las que he trabajado.",
+    "english": "INGLÉS NIVEL B2"
+  },
+  "workPage": {
+    "work": "Proyectos",
+    "subtitle": "Estos son algunos de mis trabajos recientes",
+    "textSportsManager": "Trabajo freelance realizado en Next.js el cual es un formulario con multiples pasos (wizard). Se utiliza Context para el manejo de estados global, Reactstrap y Material-UI como herramientas de UI. Formik + Yup para el formulario y su validación. Para la traducción se utilizó next-translate.",
+    "textCMYK": "Una herramienta para gestión automatizada de los proyectos CMYK de FrontEndCafé. Hecho de forma grupal en el transcurso de 2 meses. Utiliza KeystoneJS como headlessCMS, conexión con Knex y ApolloGraphQL. Como framework de React usa Next.js. TailwindCSS para los estilos.",
+    "textMessage": "App para enviar mensajes a números de Whatsapp sin tener que agendarlos, principalmente realice esta aplicación para hacer esta tarea de forma mas fácil.",
+    "textMecanica": "Landing page responsive para negocio local. Construido con HTML5, Bootstrap4 y Netlify Forms para recibir los datos de contacto, conectado a Google Maps y Whatsapp. ",
+    "textNotas": "Aplicación web para guardar notas de forma simple y rápida. Confeccionado con Firebase, Bootswatch como herramienta CSS.",
+    "textPokecommerce": "Proyecto final para el curso de React de Coderhouse. E-commerce de pokemons con carrito. Se utiliza Context para el manejo de estados, estilos con React-Bootstrap y Firebase para el back mediante conexión con API. Para el routeo se utilizó react-router-dom.",
+    "textQuiz": "Aplicación de juego de preguntas y respuestas (quiz) en el cual debemos contestar las preguntas correctamente. Realizado con ViteJS, React, Bootstrap 5 y Open Trivia API."
+  },
+  "contactPage": {
+    "contact": "Contacto",
+    "subtitle": "Envía el formulario a continuación o un correo a nestoracerbo@gmail.com",
+    "name": "Nombre",
+    "email": "Correo",
+    "invalid": "Por favor ingrese su dirección de correo electrónico válida.",
+    "message": "Escribe tu mensaje aquí!"
+  },
+  "buttonGreen": {
+    "home": "Ver proyectos",
+    "contact": "Enviar"
+  }
+}

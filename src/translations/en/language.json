@@ -1,0 +1,48 @@
+{
+  "navPage": {
+    "home": "Home",
+    "about": "About me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "homePage": {
+    "hi": "Hi! I'm",
+    "title": "Front-end Developer.",
+    "titleContact": "Send me an email",
+    "titleCV": "Download my resume"
+  },
+  "aboutPage": {
+    "about": "About me",
+    "title": " My name is Néstor Acerbo. I'm from Argentina and a River Plate fan ❤.",
+    "text": " I'm a front end developer with experience creating sites and web apps in JavaScript and React. My main goal is to create gorgeous, accessible and efficient interfaces for people to engage with. I'm confident that i can be a great addition to a team."
+  },
+  "skillsPage": {
+    "skills": "Skills",
+    "subtitle": "These are some of the technologies I have worked with:",
+    "english": "ENGLISH B2 LEVEL"
+  },
+  "workPage": {
+    "work": "Projects",
+    "subtitle": "These are some of my recent projects:",
+    "textSportsManager": "Freelance work made in Next.js which is a multistep form (wizard). It uses Context for state management, Reactstrap and Material-ui for UI tools. Formik + Yup for the form and validation. It uses next-translate for translations.",
+    "textCMYK": "A tool for automated management of FrontEndCafé CMYK projects. Done as a group over the course of 2 months. It uses KeystoneJS as headlessCMS, connection to Knex and ApolloGraphQL. As React framework it uses Next.js. TailwindCSS for styles.",
+    "textMessage": "This App is to send messages to WhatsApp numbers without having to add them to your contacts, mainly make this application to do this task in a easy way.",
+    "textMecanica": "Responsive landing page for local business. Built with HTML5, Bootstrap4 and Netlify Forms to receive contact data, connected to Google Maps and Whatsapp. ",
+    "textNotas": "Web application to save notes simply and quickly. Built with Firebase, Bootswatch as a CSS tool.",
+    "textPokecommerce": "Final project for the Coderhouse React course. E-commerce of pokemons with cart. Context is used to manage states, styles with React-Bootstrap and Firebase for the backend through API connection. For routing, react-router-dom was used.",
+    "textQuiz": "Game application of questions and answers (quiz) in which we must answer the questions correctly. Made with ViteJS, React, Bootstrap 5 and Open Trivia API."
+  },
+  "contactPage": {
+    "contact": "Contact",
+    "subtitle": "Submit the form below or email me to nestoracerbo@gmail.com",
+    "name": "Name",
+    "email": "Email",
+    "invalid": "Please provide a valid email address.",
+    "message": "Write your message here!"
+  },
+  "buttonGreen": {
+    "home": "My projects",
+    "contact": "Send"
+  }
+}
