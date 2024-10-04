@@ -88,7 +88,7 @@ const Home = () => {
               <a
                 className={styles.icon}
                 href={
-                  "https://drive.google.com/file/d/1C-dtgGo7pV3fcQInIzjJgk3qL0eAhX9Z/view"
+                  "https://drive.google.com/file/d/1-bqMMav8IOEREtgqpnhffiQN349N_NBA/view?usp=sharing"
                 }
                 title={t("homePage.titleCV")}
                 target="_blank"
