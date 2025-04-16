@@ -21,6 +21,7 @@ import tailwindImg from "../../assets/skills-logos/tailwind.webp";
 import materialImg from "../../assets/skills-logos/materialui.webp";
 import gitImg from "../../assets/skills-logos/git.webp";
 import githubImg from "../../assets/skills-logos/github.webp";
+import cobolImg from "../../assets/skills-logos/cobol.webp";
 
 const Skills = () => {
   const styles = useStyles();
@@ -42,6 +43,10 @@ const Skills = () => {
       </motion.p>
 
       <motion.div variants={toUp} className={styles.containerSkills}>
+        <div className={styles.iconBox}>
+          <img className={styles.icon} src={cobolImg} alt="COBOL logo" />
+          <p>COBOL</p>
+        </div> 
         <div className={styles.iconBox}>
           <img
             className={styles.icon}
